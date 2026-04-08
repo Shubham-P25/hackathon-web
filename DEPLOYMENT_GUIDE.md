@@ -122,7 +122,7 @@ vercel
    ```
 6. Click **"Deploy"** and wait ✅
 
-**Your frontend is live at: `https://hackathon-app.vercel.app`**
+**Your frontend is live at: `https://hackathon-app-pearl.vercel.app`**
 
 ---
 
@@ -174,12 +174,12 @@ vercel
    CLOUDINARY_CLOUD_NAME = your-cloudinary-cloud-name
    CLOUDINARY_API_KEY = your-cloudinary-api-key
    CLOUDINARY_API_SECRET = your-cloudinary-api-secret
-   ALLOWED_ORIGINS = https://hackathon-app.vercel.app,https://yourdomain.com
+   ALLOWED_ORIGINS = https://hackathon-web-pearl.vercel.app,https://yourdomain.com
    NODE_ENV = production
    ```
 6. Click **"Create Web Service"** and wait for deployment ✅
 
-**Your backend is live at: `https://hackathon-api.onrender.com`**
+**Your backend is live at: `https://hackathon-web-yg2g.onrender.com`**
 
 ---
 
@@ -189,7 +189,7 @@ vercel
 2. **Settings** → **Environment Variables**
 3. Update `VITE_API_URL`:
    ```
-   VITE_API_URL = https://hackathon-api.onrender.com
+   VITE_API_URL = https://hackathon-web-yg2g.onrender.com
    ```
 4. Go to **"Deployments"** → **"Redeploy"** (to use new env vars)
 5. Wait for redeployment ✅
@@ -202,10 +202,10 @@ After deployment, test these:
 
 ```bash
 # 1. Frontend loads
-curl https://hackathon-app.vercel.app
+curl https://hackathon-web-pearl.vercel.app
 
 # 2. Backend API responds
-curl https://hackathon-api.onrender.com/api/hackathons
+curl https://hackathon-web-yg2g.onrender.com/api/hackathons
 
 # 3. Database connection works
 # - Try logging in on the deployed app
